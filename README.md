@@ -2,11 +2,11 @@
 
 **Language**: Prolog <br/>
 **Date**: Feb 2023 <br/>
-**Repository**: [github.com/awest25/TowersPuzzleSolver](https://github.com/awest25/TowersPuzzleSolver)
+**Repository**: [github.com/awest25/Towers-Puzzle-Solver](https://github.com/awest25/Towers-Puzzle-Solver)
 
 ## Overview
 
-The Towers Puzzle Solver is designed to solve the Towers arithmetical-logical puzzle, where the objective is to fill an N×N grid with integers. Each row and column should contain all the integers from 1 through N while satisfying additional constraints. The puzzle provides counts of towers visible from each edge, which the solver uses to determine the solution.
+The [Towers Puzzle](https://www.chiark.greenend.org.uk/~sgtatham/puzzles/js/towers.html) Solver is designed to solve the Towers arithmetical-logical puzzle, where the objective is to fill an N×N grid with integers. Each row and column should contain all the integers from 1 through N while satisfying additional constraints. The puzzle provides counts of towers visible from each edge, which the solver uses to determine the solution.
 
 ## Key Features
 
@@ -23,7 +23,7 @@ The Towers Puzzle Solver is designed to solve the Towers arithmetical-logical pu
 ## Getting Started
 
 1. Clone the repo: `git clone https://github.com/awest25/TowersPuzzleSolver.git`
-2. Load the Prolog program.
+2. Load the Prolog program in an interpreter (e.g., GNU Prolog).
 3. Query the desired predicate (e.g., `ntower/3`, `plain_ntower/3`, `ambiguous/4`).
 
 ## Predicates Usage
@@ -51,7 +51,3 @@ The Towers Puzzle Solver is designed to solve the Towers arithmetical-logical pu
     ```prolog
     ?- ambiguous(5, C, T1, T2).
     ```
-
-## Further Notes
-
-For more detailed explanations and insights into the puzzle-solving logic, refer to the detailed comments and documentation within the source code. In-depth technical breakdowns, including the reasoning behind each strategy, are provided, assisting in understanding the logic behind each predicate.
